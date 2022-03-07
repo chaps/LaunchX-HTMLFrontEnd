@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+<body>
+    <style>
+        label {
+            font-weight: bold;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer-data {
+            justify-content: center;
+            text-align: center;
+        }
+        .footer-data span {
+            font-weight: bold;
+        }
+    </style>
+    <img src="./cakelogo.png" alt="">
+    <hr>
+    <a href="chef.html"> Ordenes </a>
+    <br>
+    <h1>Nueva Orden</h1>
+    <form name="orden-cliente">
+        
+        <h2>Datos del pastel</h2>
+        
+        <label for="size">Tamaño:</label>
+        <select name="size" id="">
+            <option value="size 1">Chico 1 (Costo + $100.00)</option>
+            <option value="size 2">Mediano(Costo + $200.00)</option>
+            <option value="size 3">Grande(Costo + $300.00)</option>
+        </select>
+        <br><br>
+        <label for="sabor">Sabor:</label>
+        <select name="sabor" id="">
+            <option value="Sabor 1">Sabor 1 (Costo + $20.00)</option>
+            <option value="Sabor 2">Sabor 2 (Costo + $50.00)</option>
+            <option value="Sabor 3">Sabor 3 (Costo + $30.00)</option>
+            <option value="Sabor 4">Sabor 4 (Costo + $40.00)</option>
+        </select>
+        <br><br>
+        <label for="Adorno">Adorno:</label>
+        <select name="adorno" id="">
+            <option value="Adorno 0">Adorno 0 (Costo + $0.00)</option>
+            <option value="Adorno 1">Adorno 1 (Costo + $10.00)</option>
+            <option value="Adorno 2">Adorno 2 (Costo + $20.00)</option>
+            <option value="Adorno 3">Adorno 3 (Costo + $10.00)</option>
+            <option value="Adorno 4">Adorno 4 (Costo + $30.00)</option>
+        </select>
+
+        <h2>Datos del cliente</h2>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <br><br>
+
+        <label for="">Telefono</label>
+        <input type="tel" name="" id="">
+        <br><br>
+
+        <label for="correo">Correo electronico</label>
+        <input type="email" name="correo" id="correo">
+
+        <br><br>
+        <button>Enviar</button>
+    </form>
+    <footer>
+        <hr>
+        <div class="footer-data">
+            <p>
+            <span>Dirección:</span> Calle Siempreviva #727 Springfield
+            <br>
+            <span>Teléfono: </span> 521 987 654 32 10
+            <br>
+            <span>Horario de atención: </span> 
+            <br>
+            Lunes a Viernes de 9:00 AM a 9:00 PM 
+            <br>
+            Sábado y Domingo de 9:00 AM a 1:00 PM
+            <br>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
